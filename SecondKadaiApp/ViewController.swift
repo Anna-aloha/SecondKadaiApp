@@ -19,7 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       
+        let resultViewController:ResultViewController = segue.destination as! ResultViewController
 
+    }
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
 
 }
 
