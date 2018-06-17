@@ -9,18 +9,16 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
-    @IBOutlet weak var showname: UILabel!
     
-    @IBAction func name(_ sender: Any) {
-    }
+    @IBOutlet weak var showname: UILabel!
+    var x: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        showname.text = "こんにちは、\(name)さん。"
+        showname.text = "こんにちは、\(x!)さん"
     }
 
     override func didReceiveMemoryWarning() {

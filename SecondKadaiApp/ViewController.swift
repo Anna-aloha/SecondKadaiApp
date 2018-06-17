@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var name: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,13 +23,11 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-
+        resultViewController.x = name.text
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
     }
 
 }
-

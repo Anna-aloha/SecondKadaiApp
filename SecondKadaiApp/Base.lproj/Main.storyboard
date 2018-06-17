@@ -37,12 +37,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="name:" destination="t7f-Kh-Mna" eventType="editingDidEnd" id="3gO-VJ-djb"/>
-                                </connections>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4PH-0B-epC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NwY-Kv-wiz"/>
                             <constraint firstItem="cyT-21-e4q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="l47-gO-imJ"/>
@@ -54,11 +51,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="name" destination="4PH-0B-epC" id="xyw-26-WDm"/>
+                        <outlet property="name" destination="4PH-0B-epC" id="Vhj-PB-gI7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <exit id="t7f-Kh-Mna" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="370" y="32"/>
         </scene>
@@ -78,8 +74,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSR-Ve-v8B">
-                                <rect key="frame" x="166" y="257.5" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="163.5" y="254.5" width="48" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
